@@ -8,9 +8,13 @@ body{
     background-color: floralwhite;
     
 }
+
 #title{
     color:red;
     text-align: center;
+    margin-top: 50px;
+    font-family: 'karla', sans-serif;
+    font-weight: lighter;  
 }
 p{
     text-align: center;
@@ -18,6 +22,7 @@ p{
 
 #img-div {
     background-color: rosybrown;
+    display: flex;
 }
 
 #image{
@@ -29,6 +34,19 @@ p{
     margin-right: auto;
     /* padding: 10px; */
 }
+#img-caption {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'karla', sans-serif;
+    font-weight: lighter;  
+
+}
 /* #main{
     background-color: sienna;
 } */
+#tribute-info{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'karla', sans-serif;
+    font-weight: lighter;  
+}
